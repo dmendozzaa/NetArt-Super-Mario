@@ -1,0 +1,287 @@
+body {
+background-image: url("../img/Super\ Mario\ Pixel\ Art.png");
+color: #ff0000;
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: #ffffff;
+ text-align: center;
+      font-family: "Super Mario DS (Original)";
+      font-size: 120px;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 190px;
+    filter: drop-shadow(5px 0 0.25rem black);  
+    
+    
+}
+
+.button {
+  height: max-content;
+  width:max-content;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 90px;
+  cursor: pointer;
+ position: right;
+  text-align: center;
+  text-size-adjust:0.58;
+  text-decoration: none;
+  outline: none;
+  color: #3c9aff;
+  background-color: #78ffbb;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999393;
+  font-family:"Super Mario DS (Original)" ;
+  line-height: 70px;
+  margin:-110px;
+  
+}
+
+
+.button:hover {background-color: #ff4c4c}
+
+.button:active {
+  background-color: #a84cff;
+  box-shadow: 0 8px #666;
+  transform: translateY(4px);
+  
+}
+
+body{  
+  margin: 0;  
+  padding: 0;  
+  }  
+    
+  div{  
+  position: absolute;  
+  top: 50%;  
+  left: 50%;  
+  transform: translate(-50%, -50%);  
+  }  
+    
+  body{  
+    margin: 0;  
+    padding: 0;  
+    }  
+      
+    div{  
+    position: absolute;  
+    top: 100%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+  
+    }  
+      
+    h2{   
+    font-family:"Super Mario DS (Original)" ;  
+    color:#ff0000;  
+    text-align: center;  
+    line-height: 800px;
+    position: absolute;
+    top: 0;
+    animation: animate 3.8s linear infinite;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ffffff;
+        font-family: "Super Mario DS (Original)";
+        font-size: 125px;
+        font-style: italic;
+      filter: drop-shadow(5px 0 0.25rem black);  
+    }
+      
+    .dropbtn {
+      background-color: #78ffbb;
+      color: rgb(93, 145, 228);
+      padding: 16px;
+      font-size: 150px;
+      font-family:"Super Mario DS (Original)" ;
+      border: none;
+      text-align: center;
+      
+      
+    }
+    
+    .dropdown {
+      position: absolute;
+     
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: right;
+      background-color: #ffffff;
+    
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: auto;
+      text-align: center;
+      font-size: 20px;
+    
+    }
+    
+    .dropdown-content a {
+      color: rgb(255, 0, 0);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 20px;
+      text-align: center;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: #000000;
+      font-size: 40px;
+     
+      
+    }
+    
+    .dropdown-content a:hover {background-color: #ffffff;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #ae70ff;}
+      
+    
+      
+    @keyframes animate{  
+    0%{  
+        opacity: 0;  
+    }  
+    50%{  
+        opacity: 100;  
+    }  
+    100%{  
+        opacity: 0;  
+    }  
+    }  
+  
+    nav {
+      text-align:left;
+      line-height: 10px;
+      margin: 10px; 
+      }
+  
+      .button {
+        height: max-content;
+        width:max-content;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 90px;
+        cursor: pointer;
+       position: absolute;
+        text-align: center;
+        text-size-adjust:0.58;
+        text-decoration: none;
+        outline: none;
+        color: #3c9aff;
+        background-color: #78ffbb;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999393;
+        font-family:"Super Mario DS (Original)" ;
+        
+      }
+      
+      
+      .button:hover {background-color: #ff4c4c}
+      
+      .button:active {
+        background-color: #a84cff;
+        box-shadow: 0 8px #666;
+        transform: translateY(4px);
+        
+      }
+      
+      body{  
+        margin: 0;  
+        padding: 0;  
+        }  
+          
+        div{  
+        position: absolute;  
+        top: 50%;  
+        left: 50%;  
+        transform: translate(-50%, -50%);  
+        }  
+          
+        body{  
+          margin: 0;  
+          padding: 0;  
+          }  
+            
+          div{  
+          position: absolute;  
+          top: 100%;  
+          left: 50%;  
+          transform: translate(-50%, -50%);  
+        
+          }  
+          .button2{
+            height: max-content;
+            width:max-content;
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 90px;
+            position:0px;
+            cursor: pointer;
+            text-align:center;
+            text-size-adjust:0.58;
+            text-decoration: none;
+            outline: none;
+            color: #3c9aff;
+            background-color: #78ffbb;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999393;
+            font-family:"Super Mario DS (Original)" ;
+
+
+          }
+        .button2:hover {background-color: #ff4c4c}
+      
+        .button2:active {
+        background-color: #a84cff;
+        box-shadow: 0 8px #666;
+        transform: translateY(4px);
+        
+      }
+      
+      body{  
+        margin: 0;  
+        padding: 0;  
+        }  
+          
+        div{  
+        position: absolute;  
+        top: 50%;  
+        left: 50%;  
+        transform: translate(-50%, -50%);  
+        }  
+          
+        body{  
+          margin: 0;  
+          padding: 0;  
+          }  
+            
+          div{  
+          position: absolute;  
+          top: 100%;  
+          left: 50%;  
+          transform: translate(-50%, -50%);  
+        
+          }  
+          #world1{
+            background-image: url("../img/Super\ Mario\ 64\ World\ 1.png");
+            line-height: -80px;
+           
+
+          }
+          
+          
+            #world2{
+              background-image: url("../img/Super\ Mario\ 64\ World\ 2.png");
+              line-height: -80px;
+          }
+
+          #world3{
+            background-image: url("../img/Super\ Mario\ 64\ World\ 3.png");
+            line-height: -80px;
+        }
+        
+       
